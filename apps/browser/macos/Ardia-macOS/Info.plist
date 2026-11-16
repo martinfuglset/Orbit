@@ -15,7 +15,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Ardia</string>
+	<string>Orbit</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -106,7 +106,7 @@
 		<string>zh_TW</string>
 	</array>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>Orbit</string>
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
@@ -175,11 +175,11 @@
 	<key>RCTNewArchEnabled</key>
 	<false/>
 	<key>SUAutomaticallyUpdate</key>
-	<true/>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
-	<true/>
+	<false/>
 	<key>SUFeedURL</key>
-	<string>https://ardia.dev/appcast.xml</string>
+	<string></string>
 	<key>SUPublicEDKey</key>
 	<string>gi1pBCemmSVpHM36dT5BJPPTcKC98QwS19mztCTyd4s=</string>
 	<key>SUScheduledCheckInterval</key>
