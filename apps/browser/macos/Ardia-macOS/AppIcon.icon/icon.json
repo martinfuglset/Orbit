@@ -1,68 +1,14 @@
 {
   "fill": {
-    "solid": "srgb:0.09020,0.09020,0.09020,1.00000"
+    "solid": "srgb:0.99000,0.90000,0.86000,1.00000"
   },
   "groups": [
     {
       "layers": [
         {
-          "glass": true,
-          "image-name": "electron.png",
-          "name": "electron"
-        }
-      ],
-      "shadow": {
-        "kind": "neutral",
-        "opacity": 0.5
-      },
-      "specular": true,
-      "translucency": {
-        "enabled": false,
-        "value": 0.5
-      }
-    },
-    {
-      "layers": [
-        {
           "glass": false,
-          "image-name": "ring-front.png",
-          "name": "ring-front"
-        }
-      ],
-      "shadow": {
-        "kind": "neutral",
-        "opacity": 0.5
-      },
-      "specular": false,
-      "translucency": {
-        "enabled": false,
-        "value": 0.5
-      }
-    },
-    {
-      "layers": [
-        {
-          "glass": true,
-          "image-name": "core.png",
-          "name": "core"
-        }
-      ],
-      "shadow": {
-        "kind": "neutral",
-        "opacity": 0.5
-      },
-      "specular": true,
-      "translucency": {
-        "enabled": false,
-        "value": 0.5
-      }
-    },
-    {
-      "layers": [
-        {
-          "glass": false,
-          "image-name": "ring-back.png",
-          "name": "ring-back"
+          "image-name": "circle.png",
+          "name": "circle"
         }
       ],
       "shadow": {
