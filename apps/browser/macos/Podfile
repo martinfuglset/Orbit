@@ -125,6 +125,12 @@ target 'Ardia-macOS' do
       t.build_configurations.each { |c| c.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '14.0' }
     end
 
+    # expo-constants passes its script path to `bash -c` unquoted, which breaks checkouts whose path has spaces.
+    script = '$PODS_TARGET_SRCROOT/../scripts/get-app-config-ios.sh'
+    installer.pods_project.targets.select { |t| t.name == 'EXConstants' }.each do |t|
+      t.shell_script_build_phases.each { |p| p.shell_script = p.shell_script.sub(script, "'#{script}'") }
+    end
+
     ac_parallel_post_install.call(installer)
   end
 end
